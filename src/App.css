@@ -1,0 +1,108 @@
+        /* CSS RESET */
+
+        *, *::before, *::after {
+          box-sizing: border-box;
+      }
+      
+      * {
+          margin: 0;
+          font-family: "Inter", sans-serif;
+      }
+      
+      body {
+          line-height: 1.5;
+          -webkit-font-smoothing: antialiased;
+      }
+      
+      img, picture, video, canvas, svg {
+          display: block;
+          max-width: 100%;
+      }
+      
+      input, button, textarea, select {
+          font: inherit;
+      }
+      
+      p, h1, h2, h3, h4, h5, h6 {
+          overflow-wrap: break-word;
+      }
+      
+              /* CONTAİNER */
+      
+      body {
+          background-color: #0D0714;
+      }
+      
+      .container {
+          background-color: #1D1825;
+          width: 583px;
+          margin: 0 auto;
+          margin-top: 109px;
+          border-radius: 20px;
+          padding: 50px 90px 61px 65px;
+      }
+      
+              /* TODO İNPUT */
+      
+      .todoInput {
+          width: 381px;
+          background-color: transparent;
+          border-radius: 10px;
+          border: 1px solid #9E78CF;
+          text-align: left;
+          padding-left: 15px;
+          color: #777777;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 19.36px;
+          justify-content: space-between;
+      }
+      
+      .todoTop {
+          display: flex;
+          gap: 15px;
+          width: 435px;
+          margin-bottom: 59px;
+      }
+      
+      .todoTop button {
+          border: none;
+          background-color: #9E78CF;
+          padding: 8px;
+          border-radius: 10px;
+      }
+      
+      .container h4 {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 19.36px;
+          text-align: left;
+          color: #FFFFFF;
+          margin-bottom: 17px;
+      }
+      
+      ul {
+          padding: 0px;
+      }
+      
+      li {
+          display: flex;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 19.36px;
+          text-align: left;
+          color: #9E78CF;
+          list-style: none;
+          justify-content: space-between;
+          background-color: #15101C;
+          margin-bottom: 16px;
+          padding:22px 20px ;
+          align-items: center;
+          border-radius: 10px;
+          width: 435px;
+      }
+      
+      .tasks_button {
+          background-color: transparent;
+          border: none;
+      }
